@@ -1,0 +1,32 @@
+[{
+  "id": 1,
+  "fechaInicio": "2024-06-06",
+  "fechaFin": "2024-06-06",
+  "montoPresupuestado": 120000.0,
+  "gastos": [
+    {
+      "id": 1,
+      "fecha": "2024-08-20",
+      "monto": 20000.0,
+      "descripcion": "Gasto xyz"
+    },
+    {
+      "id": 2,
+      "fecha": "2024-08-21",
+      "monto": 2000000.0,
+      "descripcion": "impresiones"
+    },
+    {
+      "id": 3,
+      "fecha": "2024-08-21",
+      "monto": 20000000.0,
+      "descripcion": "entrega para terreno"
+    },
+    {
+      "id": 4,
+      "fecha": "2024-08-20",
+      "monto": 10000.0,
+      "descripcion": "Nuevo gasto"
+    }
+  ]
+}]
