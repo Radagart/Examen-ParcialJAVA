@@ -11,7 +11,7 @@ import java.util.List;
 public class PresupuestoService {
 
     @Inject
-    private PresupuestoRepository presupuestoRepository;
+    public PresupuestoRepository presupuestoRepository;
 
     public Presupuesto crearPresupuesto(Presupuesto presupuesto) {
         // Lógica para crear un nuevo presupuesto

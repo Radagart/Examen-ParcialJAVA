@@ -7,25 +7,25 @@
     "gastos": [
       {
         "id": 1,
-        "fecha": 1724198400000,
+        "fecha": "2024-08-21",
         "monto": 50000.0,
         "descripcion": "Compra de equipos"
       },
       {
         "id": 2,
-        "fecha": 1724284800000,
+        "fecha": "2024-08-22",
         "monto": 100000.0,
         "descripcion": "Servicios de consultoría"
       },
       {
         "id": 3,
-        "fecha": 1724371200000,
+        "fecha": "2024-08-23",
         "monto": 150000.0,
         "descripcion": "Marketing y publicidad"
       },
       {
         "id": 4,
-        "fecha": 1724558400000,
+        "fecha": "2024-08-25",
         "monto": 20000.0,
         "descripcion": "Nuevo gasto"
       }
@@ -39,23 +39,16 @@
     "gastos": [
       {
         "id": 1,
-        "fecha": 1724457600000,
+        "fecha": "2024-08-24",
         "monto": 75000.0,
         "descripcion": "Rediseño del sitio web"
       },
       {
         "id": 2,
-        "fecha": 1724544000000,
+        "fecha": "2024-08-25",
         "monto": 50000.0,
         "descripcion": "Capacitación de personal"
       }
     ]
-  },
-  {
-    "id": 3,
-    "fechaInicio": "string",
-    "fechaFin": "string",
-    "montoPresupuestado": 0.0,
-    "gastos": [{ "id": 0, "fecha": 0, "monto": 0.0, "descripcion": "string" }]
   }
 ]

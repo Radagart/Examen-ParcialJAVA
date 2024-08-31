@@ -26,6 +26,17 @@ public class PresupuestoController {
     @Inject
     private PresupuestoService presupuestoService;
 
+    @GET
+    @Path("/test-injection")
+    @Produces(MediaType.TEXT_PLAIN)
+    public Response testInjection() {
+        if (presupuestoService != null) {
+            return Response.ok("Inyección exitosa, ayuda por favor").build();
+        } else {
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Error en la inyección").build();
+        }
+    }
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
